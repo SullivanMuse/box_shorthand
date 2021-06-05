@@ -1,0 +1,18 @@
+[package]
+name = "box_shorthand"
+version = "0.1.0"
+authors = ["SullivanMuse <SullivanMuse@users.noreply.github.com>"]
+edition = "2018"
+description = "Rust derive macro to create shorthand functions for initializing boxed enum variant values"
+readme = "README.md"
+repository = "https://github.com/SullivanMuse/box_shorthand"
+license = "MIT"
+license-file = "LICENSE.txt"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0"
+quote = "1.0"
+proc-macro2 = "1.0"
